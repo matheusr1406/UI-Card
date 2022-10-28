@@ -12,8 +12,7 @@ body {
     display        : flex;
     justify-content: center;
     align-items    : center;
-    background-color: #FFE53B;
-    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+    background-image: radial-gradient( circle farthest-corner at 7.2% 13.6%,  rgba(37,249,245,1) 0%, rgba(8,70,218,1) 90% );
 
 }
 
@@ -34,9 +33,9 @@ body {
     width        : 130px;
     height       : 130px;
     overflow     : hidden;
-    border       : 5px solid #FF2525;
+    border       : 5px solid #0CAFFF;
     border-radius: 50%;
-    box-shadow   : 0 8px 55px #F96868;
+    box-shadow   : 0 8px 55px #B2FFFF;
     position     : absolute;
     top          : 0;
     left         : 50%;
@@ -66,7 +65,7 @@ body {
     font-size     : 1.4em;
     font-weight   : bold;
     letter-spacing: 1px;
-    color         : #B22222;
+    color         : #4B9CD3;
 }
 
 .posts-info {
@@ -137,7 +136,7 @@ body {
     outline: none;
     cursor: pointer;
     color: #fff;
-    background-color: #d31258;
+    background-color: #007791;
     border: none;
     border-radius: 50px;
     padding: 12px 20px;
@@ -152,7 +151,7 @@ body {
 }
 
 .action.message {
-    background-color: #6741ff;
+    background-color: #002244;
 }
 
 .action:hover {
